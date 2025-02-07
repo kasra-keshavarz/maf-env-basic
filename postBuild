@@ -1,4 +1,6 @@
 #!/bin/bash
+# Enable debugging
+set -e
 # Add /usr/bin to PATH with gfortran-11
 export PATH=/usr/bin:$PATH
 
