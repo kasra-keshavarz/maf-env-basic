@@ -8,4 +8,4 @@ ln -sf /usr/bin/gfortran-11 $HOME/.local/bin/gfortran
 export PATH=$HOME/.local/bin:$PATH
 
 # Run the keep-alive script in the background
-python keep_alive.py > keep_alive.log 2>&1 &
+nohup python keep_alive.py > keep_alive.log 2>&1 &
