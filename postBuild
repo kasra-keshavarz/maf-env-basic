@@ -1,3 +1,3 @@
 #!/bin/bash
 # Create a symbolic link for gfortran
-ln -sf /usr/bin/gfortran-11 /usr/bin/gfortran
+sudo ln -sf /usr/bin/gfortran-11 /usr/bin/gfortran
