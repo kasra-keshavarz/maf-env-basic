@@ -32,3 +32,7 @@ libudunits2-0
 libudunits2-data
 libudunits2-dev
 udunits-bin
+openmpi-bin
+openmpi-common
+libopenmpi3
+libopenmpi-dev
