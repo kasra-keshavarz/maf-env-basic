@@ -36,3 +36,6 @@ openmpi-bin
 openmpi-common
 libopenmpi3
 libopenmpi-dev
+gfortran-11
+libgfortran5
+
