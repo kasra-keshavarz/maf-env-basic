@@ -1,3 +1,8 @@
 #!/bin/bash
-# Create a symbolic link for gfortran
-sudo ln -sf /usr/bin/gfortran-11 /usr/bin/gfortran
+# Add /usr/bin to PATH with gfortran-11
+export PATH=/usr/bin:$PATH
+
+# Create a symbolic link in a user-writable directory
+mkdir -p $HOME/.local/bin
+ln -sf /usr/bin/gfortran-11 $HOME/.local/bin/gfortran
+export PATH=$HOME/.local/bin:$PATH
